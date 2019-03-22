@@ -52,22 +52,5 @@ namespace BookingSystem.Data
         {
             return Data.Data.Bookings;
         }
-
-        ///// <summary>
-        ///// Update the booking status
-        ///// </summary>
-        ///// <param name="id">ID of the booking</param>
-        ///// <param name="bookingStatus">The new booking status</param>
-        ///// <returns>True if succeed, else false</returns>
-        //public bool UpdateBookingStatus(int id, BookingStatus bookingStatus)
-        //{
-        //    var booking = GetBooking(id);
-
-        //    if (booking == null) return false;
-
-        //    booking.BookingStatus = bookingStatus;
-
-        //    return true;
-        //}
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BookingSystem.Data.Data
 {
-    // This is a hack to store the data into the memory, because I'm too lazy to set up a SQL db
+    // Store all the data into the memory. In reality, there should be a SQL db + an ORM that the repository uses to work with the db
     // The intention to make it really, really simple
     public static class Data
     {
