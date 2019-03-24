@@ -13,6 +13,8 @@ This repository has been published on Azure. Feel free to do a test run on : htt
 
 If you just want to look at what this API offers, I have set up the Swagger too! It is on: http://bookingfree.azurewebsites.net/swagger
 
+There is also a client mobile app that uses this API: https://github.com/FaridAhamat/BookingApp
+
 Note:
 From time to time, I will turn off the resources on Azure, so if it's not running, it's probably because of that :)
 
