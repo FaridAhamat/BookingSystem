@@ -9,9 +9,9 @@ The system allows you to view all bookings, view specific booking, create new bo
 The system allows you to view all users, view specific user and create new user.
 
 # Misc
-This repository has been published on Azure. Feel free to do a test run on : http://bookingfree.azurewebsites.net/
+This repository has been published on Azure. In order to make it easy for you to take a look at what this API has to offer, I have set up the Swagger too! It is on: http://bookingfree.azurewebsites.net/swagger
 
-If you just want to look at what this API offers, I have set up the Swagger too! It is on: http://bookingfree.azurewebsites.net/swagger
+Please note that the API is hosted on free-tier resource, so the first hit will always be slow. This is due to Azure unloading the worker process that runs the website when it goes idle, and reload it once the site gets hit.
 
 There is also a client mobile app that uses this API: https://github.com/FaridAhamat/BookingApp
 
