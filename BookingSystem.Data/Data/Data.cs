@@ -22,6 +22,7 @@ namespace BookingSystem.Data.Data
             new Customer { Id = 2, Name = "Muthu" },
             new Customer { Id = 3, Name = "Ah Chong" },
             new Customer { Id = 4, Name = "John" },
+            new Customer { Id = 5, Name = "Anwar" },
         };
     }
 }

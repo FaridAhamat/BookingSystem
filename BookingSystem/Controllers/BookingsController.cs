@@ -8,11 +8,11 @@ namespace BookingSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BookingController : ControllerBase
+    public class BookingsController : ControllerBase
     {
         private IBookingRepository bookingRepository;
 
-        public BookingController(IBookingRepository bookingRepository)
+        public BookingsController(IBookingRepository bookingRepository)
         {
             this.bookingRepository = bookingRepository;
         }
